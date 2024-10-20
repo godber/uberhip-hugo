@@ -5,7 +5,7 @@ date:   2019-02-16 06:28:00
 categories: astrophotography
 ---
 
-<img src="/images/m42-large.png" width="800" alt="m42 and m43 nebulae">
+![m42 and m43 nebulae](/images/m42-large.png)
 
 The above image is a smaller version of the first decent picture I took with my
 recently acquired astrophotography setup.  It was taken on Feb 11th, 2019 from,
@@ -56,11 +56,11 @@ having a filter wheel WOULD be cool.
 
 The setup can be seen below:
 
-<img src="/images/telescope.jpg" width="800">
+![Telescope setup](/images/telescope.jpg)
 
 The camera, adapter and field corrector can be seen attached to the OTA below:
 
-<img src="/images/telescope-zoom.jpg" width="800">
+![Telescope zoom](/images/telescope-zoom.jpg)
 
 ## The Setup
 

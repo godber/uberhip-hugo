@@ -10,7 +10,7 @@ My interests have mostly been building photorealistic scenes or models using
 photogrammetry tools like [Agisoft Photoscan](http://www.agisoft.com/).  I may
 start sharing more of my experiments, like this one, here in the future.
 
-![Superstition Mountains]({{ site.url }}/images/south-central-superstitions.jpg)
+![Superstition Mountains](/images/south-central-superstitions.jpg)
 
 In November 2017 friends and I went for a hike deep into the Superstition
 Mountains in central Arizona to 600 year old Native American Indian ruins

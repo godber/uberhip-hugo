@@ -2,3 +2,40 @@ baseURL: http://uberhip.com/
 languageCode: en-us
 title: Uberhip
 theme: "PaperMod"
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+params:
+  homeInfoParams:
+    Title: Hi there 👋
+    Content: |
+      Welcome to my website. My name is Austin Godber. I have a bachelors in 
+      [Physics from Arizona State University](https://physics.asu.edu). I am a
+      Software Engineer and Site Reliability Engineer. I have worked
+      on DARPA sponsored computer security projects, helped start a Municipal
+      WiFi company, assisted NASA's Mars Spaceflight Facility in surviving the
+      Slashdot effect, wrangled virtual penguins for JumpBox, operated cameras
+      on NASA's [MER](http://pancam.sese.asu.edu/index.html) and 
+      [MSL Mars](https://science.nasa.gov/mission/msl-curiosity/) rovers and now
+      build and manage
+      [petabyte scale distributed systems](https://github.com/terascope/teraslice/)
+      for [Terascope](https://terascope.io).
+
+  socialIcons:
+    - name: "Email"
+      url: "mailto:godber@uberhip.com"
+    - name: "Gitea"
+      url: "https://git.hawt.cloud/godber"
+    - name: "Mastodon"
+      url: "https://az.social/@godber"
+    - name: "Github"
+      url: "https://github.com/godber"
+    - name: "LinkedIn"
+      url: "https://www.linkedin.com/in/godber/"
+    - name: "Twitter"
+      url: "https://x.com/godber"
+    - name: "RSS"
+      url: "/index.xml"
