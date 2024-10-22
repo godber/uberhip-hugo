@@ -18,7 +18,7 @@ that it should be using.  These errors look like this when running my
 mirror script:
 
 
-{% highlight bash %}
+```bash
 ...
 [ 13%] Getting: dists/precise-updates/multiverse/binary-amd64/Packages
 #** GET http://us.archive.Ubuntuuntu.com/ubuntu/dists/precise-updates/multiverse/binary-amd64/Packages ==> 404 Not Found
@@ -27,15 +27,15 @@ dists/precise-updates/multiverse/binary-amd64/Packages failed 404 Not Found
 #** GET http://us.archive.ubuntu.com/ubuntu/dists/precisecise-updates/multiverse/binary-i386/Packages ==> 404 Not Found
 dists/precise-updates/multiverse/binary-i386/Packages failed 404 Not Found
 ...
-{% endhighlight %}
+```
 
 Well, this appears to be related to this `debmirror` issue:
 https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=389894
 which contains the critical information that the `.temp` directory in
 the parent mirror directory can be cleared out:
 
-{% highlight bash %}
+```bash
 rm -rf /data/www/ubuntu/.temp
-{% endhighlight %}
+```
 
 Now rerun the mirror script and things should work again.

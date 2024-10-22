@@ -14,7 +14,7 @@ The source to these formulas can be found in my
 Though to install GQRX all you have to do is setup my 'tap' and then install the
 package as shown below:
 
-{% highlight bash %}
+```bash
 brew tap godber/godber
 brew update
 
@@ -27,13 +27,13 @@ brew install hackrf
 brew install gnuradio-osmosdr
 brew install gqrx
 brew linkapps gqrx
-{% endhighlight %}
+```
 
 Installing the Homebrew packages above are all I had to do to get both my HackRF
 and NooElec RTL-SDR working with GQRX on El Capitan.  Below is a screenshot of
 GQRX running with my HackRF.
 
-![GQRX Working with HackRF]({{ site.url }}/images/gqrx.png)
+![GQRX Working with HackRF](/images/gqrx.png)
 
 Unfortunately neither GQRX nor Gr-OsmoSDR can be included in Homebrew directly.
 Since GQRX generates and installs an OS X .app it cannot be included.  Perhaps
