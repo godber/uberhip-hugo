@@ -12,17 +12,16 @@ params:
   homeInfoParams:
     Title: Hi there 👋
     Content: |
-      Welcome to my website. My name is Austin Godber. I have a bachelors in 
-      [Physics from Arizona State University](https://physics.asu.edu). I am a
-      Software Engineer and Site Reliability Engineer. I have worked
-      on DARPA sponsored computer security projects, helped start a Municipal
-      WiFi company, assisted NASA's Mars Spaceflight Facility in surviving the
-      Slashdot effect, wrangled virtual penguins for JumpBox, operated cameras
-      on NASA's [MER](http://pancam.sese.asu.edu/index.html) and 
-      [MSL Mars](https://science.nasa.gov/mission/msl-curiosity/) rovers and now
-      build and manage
+      Welcome to my website. My name is Austin Godber.  I am a Software Engineer
+      and Site Reliability Engineer. I currently build and manage
       [petabyte scale distributed systems](https://github.com/terascope/teraslice/)
-      for [Terascope](https://terascope.io).
+      for [Terascope](https://terascope.io). I have a bachelors in
+      [Physics from Arizona State University](https://physics.asu.edu).  I have
+      worked on DARPA sponsored computer security projects, helped start a
+      Municipal WiFi company, assisted NASA's Mars Spaceflight Facility in
+      surviving the Slashdot effect, wrangled virtual penguins for JumpBox,
+      operated cameras on NASA's [MER](http://pancam.sese.asu.edu/index.html) and
+      [MSL Mars](https://science.nasa.gov/mission/msl-curiosity/) rovers and now
 
   socialIcons:
     - name: "Email"

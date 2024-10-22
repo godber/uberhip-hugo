@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  "Experiment - Rogers Ruins"
-date:   2017-12-09 06:28:00
+title: "Experiment - Rogers Ruins"
+date: 2017-12-09 06:28:00
 categories: ar vr xr immersive virtualreality
 ---
 
 Recently, in my free time, I've been playing with VR/AR related technologies.
 My interests have mostly been building photorealistic scenes or models using
-photogrammetry tools like [Agisoft Photoscan](http://www.agisoft.com/).  I may
+photogrammetry tools like [Agisoft Photoscan](http://www.agisoft.com/). I may
 start sharing more of my experiments, like this one, here in the future.
 
 ![Superstition Mountains](/images/south-central-superstitions.jpg)
@@ -26,9 +26,9 @@ to create this [360 Tour of Roger's Trough Trail hike](http://uberhip.com/misc/r
 </div>
 
 Once we got to these ruins I took a couple hundred photos of the ruins from many
-different angles.  I used some of these photos in Photoscan to generate a model
-which I then cleaned up using [meshlab](http://www.meshlab.net/).  This was a
-quick first effort at this kind of thing.  The work I did in meshlab was mostly
+different angles. I used some of these photos in Photoscan to generate a model
+which I then cleaned up using [meshlab](http://www.meshlab.net/). This was a
+quick first effort at this kind of thing. The work I did in meshlab was mostly
 deleting extraneous parts and simplifying the model using the filter
 `Simplification: Quadratic Edge Collapse Decimation (with texture)` so it was
 small enough to load into other things, like [Sketchfab](sketchfab.com).
@@ -52,9 +52,9 @@ the Mozilla Nightly WebVR enabled build.
 
 A few things I might like to do to improve the model is:
 
-* Fill the holes
-* Put in a fake sky dome or what ever people call that.
-* Extend the model with lower resolution surroundings, perhaps using USGS 3DEP
+- Fill the holes
+- Put in a fake sky dome or what ever people call that.
+- Extend the model with lower resolution surroundings, perhaps using USGS 3DEP
   data like this 1/3rd arc second
 
 Thanks for reading, hopefully you found this as interesting as I did!
