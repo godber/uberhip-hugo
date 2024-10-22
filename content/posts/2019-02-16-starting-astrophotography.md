@@ -97,14 +97,14 @@ right spot and see the target in the pointing scope.
 So far, I've taken images using [APT (Astro Photography Tool)](https://ideiki.com/astro/Default.aspx)
 but I also have [SGP (Sequence Generator Pro)](http://mainsequencesoftware.com/Products/SGPro).
 APT worked with the combination of equipment I had. The LiveView with the Nikon
-was a little puzzling and sometimes I couldn't get the exposure or focus quite right.
-I managed to focus close enough through the Nikon's viewfinder, APT LiveView has to be
-off to make sure the mirror is down. Then I'd use the
+was a little puzzling and sometimes I couldn't get the exposure or focus quite
+right. I managed to focus close enough through the Nikon's viewfinder, APT
+LiveView has to be off to make sure the mirror is down. Then I'd use the
 [APT Focus Aid](https://ideiki.com/astro/usersguide/focusing_aid.htm) tool
-to try and minimize the FWHM of a selected star in the LiveView image. It helps to
-zoom into the image when doing this. Then I'd take a few trial images and zoom
-in and look around to see if the stars looked small enough. Once I felt like I'd
-got it worked out, I cloned one of their default plans in the
+to try and minimize the FWHM of a selected star in the LiveView image. It helps
+to zoom into the image when doing this. Then I'd take a few trial images and
+zoom in and look around to see if the stars looked small enough. Once I felt like
+I'd got it worked out, I cloned one of their default plans in the
 [Plan Editor](https://ideiki.com/astro/usersguide/dslr_mode_2.htm?ms=AAA%3D&st=MA%3D%3D&sct=Mzk3&mw=MjQw)
 and made a new plan where I just set it up for 20 exposures at 30 seconds with
 an ISO of 400 with quantity raw. Then I fired away and took the lights.
@@ -139,9 +139,9 @@ I'll be working on developing all of these skills as time goes on.
 
 The next steps that I am thinking about are:
 
-- Post processing with [PixInsight](http://pixinsight.com/) - I think this will give me more control
-  and provide enough detail that I'll have a better feel for what's going on
-  than I did just dumping images into DSS.
+- Post processing with [PixInsight](http://pixinsight.com/) - I think this will
+  give me more control and provide enough detail that I'll have a better feel
+  for what's going on than I did just dumping images into DSS.
 - Auto Guiding Scope - It's my understanding that even with a decent mount
   you'll need a guide scope to take great long exposures (this is why I've only
   taken 30s exposures). I've got a guide scope and guide camera I'll be working
