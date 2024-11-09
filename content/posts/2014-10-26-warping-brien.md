@@ -76,7 +76,7 @@ I use the coordinates found above to define a
 that contains the original coordinates of the image corners: `orig_pts`. Then I
 define the coordinates I want the original points to be mapped to: `dest_pts`.
 The ordering here doesn&#39;t matter except that the orders must match in both
-arrays. The transformation we define later will use both the orignal and
+arrays. The transformation we define later will use both the original and
 destination coordinates as the basis of the transformation, so the first element
 of `orig_pts` will be transformed to the first element of `dest_pts`, the second
 element of `orig_pts` will be transformed to the second element of `dest_pts` and

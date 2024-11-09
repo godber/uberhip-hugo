@@ -36,5 +36,7 @@ params:
       url: "https://www.linkedin.com/in/godber/"
     - name: "Twitter"
       url: "https://x.com/godber"
+    - name: "Other"
+      url: "https://misc.uberhip.com/gallery/"
     - name: "RSS"
       url: "/index.xml"

@@ -20,7 +20,7 @@ Samsung Gear 360 camera and used Google's [Marzipano](http://www.marzipano.net/)
 to create this [360 Tour of Roger's Trough Trail hike](http://uberhip.com/misc/rr/)
 
 <div class="marzipano-embed">
-  <iframe width="800" height="600" src="http://uberhip.com/misc/rr/" allowvr
+  <iframe width="800" height="600" src="https://misc.uberhip.com/rr/" allowvr
   allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true"
   frameborder="0" onmousewheel=""></iframe>
 </div>
