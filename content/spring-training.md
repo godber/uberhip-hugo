@@ -33,6 +33,10 @@ Look at the calendar above. Each game is colored:
 * Red: No tickets are available
 * Yellow: Some tickets are available, but not all four
 
+The L shaped boxes represent the seats and their availability.  Green means the
+seat is available, red means it's not.  Hover over a seat to see the seat
+number.  If you're on mobile, you can tap on a seat to see the seat number.
+
 ### How do I request tickets?
 
 Email or text me.  If you don't know who I am, you'll have to go to SeatGeek
