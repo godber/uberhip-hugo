@@ -1,0 +1,184 @@
+{
+  "events": [
+    {
+      "title": "Reds",
+      "description": "Giants versus Reds at 01:05PM on Sunday, February 23rd, 2025",
+      "seatsAvailable": {
+        "s103a6": true,
+        "s103b5": true,
+        "s103b6": true,
+        "s103b7": true
+      },
+      "start": "2025-02-23",
+      "backgroundColor": "#28a745"
+    },
+    {
+      "title": "Rockies",
+      "description": "Giants versus Rockies at 01:05PM on Monday, February 24th, 2025",
+      "seatsAvailable": {
+        "s103a6": true,
+        "s103b5": true,
+        "s103b6": true,
+        "s103b7": true
+      },
+      "start": "2025-02-24",
+      "backgroundColor": "#28a745"
+    },
+    {
+      "title": "Cubs",
+      "description": "Giants versus Cubs at 01:05PM on Wednesday, February 26th, 2025",
+      "seatsAvailable": {
+        "s103a6": true,
+        "s103b5": true,
+        "s103b6": true,
+        "s103b7": true
+      },
+      "start": "2025-02-26",
+      "backgroundColor": "#28a745"
+    },
+    {
+      "title": "Brewers",
+      "description": "Giants versus Brewers at 01:05PM on Friday, February 28th, 2025",
+      "seatsAvailable": {
+        "s103a6": false,
+        "s103b5": false,
+        "s103b6": false,
+        "s103b7": false
+      },
+      "start": "2025-02-28",
+      "backgroundColor": "#dc3545"
+    },
+    {
+      "title": "Angels",
+      "description": "Giants versus Angels at 01:05PM on Sunday, March 2nd, 2025",
+      "seatsAvailable": {
+        "s103a6": true,
+        "s103b5": true,
+        "s103b6": true,
+        "s103b7": true
+      },
+      "start": "2025-03-02",
+      "backgroundColor": "#28a745"
+    },
+    {
+      "title": "White Sox",
+      "description": "Giants versus White Sox at 01:05PM on Thursday, March 6th, 2025",
+      "seatsAvailable": {
+        "s103a6": true,
+        "s103b5": true,
+        "s103b6": true,
+        "s103b7": true
+      },
+      "start": "2025-03-06",
+      "backgroundColor": "#28a745"
+    },
+    {
+      "title": "Royals",
+      "description": "Giants versus Royals at 01:05PM on Saturday, March 8th, 2025",
+      "seatsAvailable": {
+        "s103a6": true,
+        "s103b5": true,
+        "s103b6": true,
+        "s103b7": true
+      },
+      "start": "2025-03-08",
+      "backgroundColor": "#28a745"
+    },
+    {
+      "title": "Padres",
+      "description": "Giants versus Padres at 01:05PM on Sunday, March 9th, 2025",
+      "seatsAvailable": {
+        "s103a6": true,
+        "s103b5": true,
+        "s103b6": true,
+        "s103b7": true
+      },
+      "start": "2025-03-09",
+      "backgroundColor": "#28a745"
+    },
+    {
+      "title": "Athletics",
+      "description": "Giants versus Athletics at 06:05PM on Tuesday, March 11th, 2025",
+      "seatsAvailable": {
+        "s103a6": true,
+        "s103b5": true,
+        "s103b6": true,
+        "s103b7": true
+      },
+      "start": "2025-03-11",
+      "backgroundColor": "#28a745"
+    },
+    {
+      "title": "Rangers",
+      "description": "Giants versus Rangers at 01:05PM on Thursday, March 13th, 2025",
+      "seatsAvailable": {
+        "s103a6": true,
+        "s103b5": true,
+        "s103b6": true,
+        "s103b7": true
+      },
+      "start": "2025-03-13",
+      "backgroundColor": "#28a745"
+    },
+    {
+      "title": "Mariners",
+      "description": "Giants versus Mariners at 01:05PM on Saturday, March 15th, 2025",
+      "seatsAvailable": {
+        "s103a6": true,
+        "s103b5": true,
+        "s103b6": true,
+        "s103b7": true
+      },
+      "start": "2025-03-15",
+      "backgroundColor": "#28a745"
+    },
+    {
+      "title": "Athletics",
+      "description": "Giants versus Athletics at 01:05PM on Sunday, March 16th, 2025",
+      "seatsAvailable": {
+        "s103a6": true,
+        "s103b5": true,
+        "s103b6": true,
+        "s103b7": true
+      },
+      "start": "2025-03-16",
+      "backgroundColor": "#28a745"
+    },
+    {
+      "title": "Padres",
+      "description": "Giants versus Padres at 06:05PM on Tuesday, March 18th, 2025",
+      "seatsAvailable": {
+        "s103a6": true,
+        "s103b5": true,
+        "s103b6": true,
+        "s103b7": true
+      },
+      "start": "2025-03-18",
+      "backgroundColor": "#28a745"
+    },
+    {
+      "title": "Guardians",
+      "description": "Giants versus Guardians at 01:05PM on Friday, March 21st, 2025",
+      "seatsAvailable": {
+        "s103a6": true,
+        "s103b5": true,
+        "s103b6": true,
+        "s103b7": true
+      },
+      "start": "2025-03-21",
+      "backgroundColor": "#28a745"
+    },
+    {
+      "title": "Diamondbacks",
+      "description": "Giants versus Diamondbacks at 01:05PM on Saturday, March 22nd, 2025",
+      "seatsAvailable": {
+        "s103a6": true,
+        "s103b5": true,
+        "s103b6": true,
+        "s103b7": true
+      },
+      "start": "2025-03-22",
+      "backgroundColor": "#28a745"
+    }
+  ]
+}
