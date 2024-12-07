@@ -22,3 +22,27 @@ Seats 5, 6, and 7.  This section sits right behind home plate, so it's a great
 place to watch the game.
 
 ![image](/images/stadium-map.png)
+
+## FAQ
+
+### How do I know what tickets are available?
+
+Look at the calendar above. Each game is colored:
+
+* Green: All four tickets are available
+* Red: No tickets are available
+* Yellow: Some tickets are available, but not all four
+
+### How do I request tickets?
+
+Email or text me.  If you don't know who I am, you'll have to go to SeatGeek
+and buy tickets from me there.  Maybe I will find a way to share those tickets here.
+
+### How will I receive the tickets?
+
+You must use the MLB Ballpark app and I will send you tickets via the app.
+
+### Where do I park?
+
+Parking is tough, go super early and park near the stadium or in the Library if
+they still let you do that.  There's abundant parking over on Goldwater just north of Osborn.  That's about a 10 minute walk to the stadium.
