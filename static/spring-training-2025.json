@@ -30,8 +30,8 @@
       "seatsAvailable": {
         "s103a6": true,
         "s103b5": true,
-        "s103b6": true,
-        "s103b7": true
+        "s103b6": false,
+        "s103b7": false
       },
       "start": "2025-02-26",
       "backgroundColor": "#28a745"
@@ -172,10 +172,10 @@
       "title": "Diamondbacks",
       "description": "Giants vs Diamondbacks at 01:05PM on Saturday, March 22nd, 2025",
       "seatsAvailable": {
-        "s103a6": true,
-        "s103b5": true,
-        "s103b6": true,
-        "s103b7": true
+        "s103a6": false,
+        "s103b5": false,
+        "s103b6": false,
+        "s103b7": false
       },
       "start": "2025-03-22",
       "backgroundColor": "#28a745"

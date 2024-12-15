@@ -37,10 +37,21 @@ The L shaped boxes represent the seats and their availability.  Green means the
 seat is available, red means it's not.  Hover over a seat to see the seat
 number.  If you're on mobile, you can tap on a seat to see the seat number.
 
+Note that the calendar is not being updated immediately.  So don't wait too long
+to request tickets after checking it.  I'll try to update it as soon as I can
+but I make no guarantees.
+
 ### How do I request tickets?
 
-Email or text me.  If you don't know who I am, you'll have to go to SeatGeek
-and buy tickets from me there.  Maybe I will find a way to share those tickets here.
+Send me an email or text with the following information:
+
+* Your name
+* Which game you want tickets for
+* Which seats you want tickets for: `103A6`, `103B5`, `103B6`, or `103B7`
+* What email address you use in the MLB Ballpark app
+
+If you don't know who I am, you'll have to go to SeatGeek and buy tickets from
+me there.  Maybe I will find a way to share those tickets here.
 
 ### How will I receive the tickets?
 
