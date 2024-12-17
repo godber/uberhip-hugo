@@ -271,7 +271,7 @@ class SpringTrainingCalendar extends LitElement {
   async loadCalendarData() {
     try {
       const timestamp = new Date().getTime();
-      const response = await fetch(`/spring-training-2025.json?t=${timestamp}`);
+      const response = await fetch(`/api/v1/spring-training-games?t=${timestamp}`);
       const data = await response.json();
       this.initializeCalendar(data.events);
     } catch (error) {
