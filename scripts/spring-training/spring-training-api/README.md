@@ -15,7 +15,7 @@ games.
 2. Build and run the application using Docker Compose:
 
 ```bash
-docker-compose up --build
+docker compose up --build
 ```
 
 3. The API will be available at `http://localhost:8080/v1/spring-training-games`
