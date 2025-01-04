@@ -211,6 +211,15 @@ class SpringTrainingCalendar extends LitElement {
       white-space: nowrap;
       z-index: 1000;
     }
+
+    .events-table td:first-child {
+      white-space: nowrap;
+    }
+
+    .events-table td:nth-child(2) {
+      white-space: normal;
+      word-wrap: break-word;
+    }
   `;
 
   formatDate(dateStr) {
@@ -224,20 +233,22 @@ class SpringTrainingCalendar extends LitElement {
   }
 
   formatTableDate(dateStr) {
-    const date = new Date(dateStr);
+    const date = new Date(dateStr + 'T12:00:00');
     return date.toLocaleDateString('en-US', {
       month: '2-digit',
       day: '2-digit',
-      year: 'numeric'
+      year: 'numeric',
+      timeZone: 'UTC'
     });
   }
 
   formatDescriptionDate(dateStr) {
-    const date = new Date(dateStr);
+    const date = new Date(dateStr + 'T12:00:00');
     return date.toLocaleDateString('en-US', {
       weekday: 'long',
       month: 'long',
-      day: 'numeric'
+      day: 'numeric',
+      timeZone: 'UTC'
     });
   }
 
@@ -393,35 +404,6 @@ class SpringTrainingCalendar extends LitElement {
         <td>${description}</td>
         <td>${this.createSeatGrid(event.seatsAvailable)}</td>
       `;
-
-      // Add click handler to show modal
-      row.addEventListener('click', () => {
-        const modal = document.createElement('div');
-        modal.classList.add('modal-backdrop');
-        modal.innerHTML = `
-          <div class="modal-content">
-            <button class="modal-close">&times;</button>
-            <div class="modal-title">${event.title}</div>
-            <div class="modal-date">${this.formatDate(event.start)}</div>
-            <div class="modal-description">${event.extendedProps.description.replace(/\s+on.*?, 2025/, ` on ${this.formatDescriptionDate(event.start)}`)}</div>
-            ${this.createSeatGrid(event.seatsAvailable)}
-          </div>
-        `;
-        
-        this.shadowRoot.appendChild(modal);
-        
-        modal.addEventListener('click', (e) => {
-          if (e.target === modal || e.target.classList.contains('modal-close')) {
-            modal.remove();
-          }
-        });
-
-        document.addEventListener('keydown', (e) => {
-          if (e.key === 'Escape') {
-            modal.remove();
-          }
-        }, { once: true });
-      });
 
       tableBody.appendChild(row);
     });
