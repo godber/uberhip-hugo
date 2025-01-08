@@ -37,3 +37,20 @@ git submodule update --init --recursive # needed when you reclone your repo (sub
 ```bash
 rsync -avv public/ balancar:/var/www/www.uberhip.com/
 ```
+
+## Releases
+
+This repository automatically creates releases when version tags are pushed. 
+Each release includes a tarball of the built site.
+
+To create a new release:
+1. Tag the commit you want to release:
+   ```bash
+   git tag v1.0.0
+   ```
+2. Push the tag:
+   ```bash
+   git push origin v1.0.0
+   ```
+3. The GitHub Action will automatically build the site and create a release
+with the built files.
