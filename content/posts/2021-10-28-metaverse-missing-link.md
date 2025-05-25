@@ -88,3 +88,6 @@ I'll keep exploring options and dig into the w3c committee details.  I wouldn't
 be surprised to discover settings on desktop browsers that permit this, I have
 not yet tried in this decade.  I am looking forward to see how this evolves and
 if we can push this forward in some meaningful way.
+
+
+Edit: This post was originally posted on webvr.dev, which I am now decommissioning.
