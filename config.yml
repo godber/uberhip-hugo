@@ -1,5 +1,4 @@
 baseURL: http://uberhip.com/
-languageCode: en-us
 title: Uberhip
 theme: "PaperMod"
 
@@ -9,6 +8,9 @@ markup:
       unsafe: true
 
 params:
+  author:
+    name: Austin Godber
+    email: godber@uberhip.com
   homeInfoParams:
     Title: Hi there 👋
     Content: |
