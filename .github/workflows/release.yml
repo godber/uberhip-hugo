@@ -3,7 +3,7 @@ name: Build and Release
 on:
   push:
     tags:
-      - 'v*' # Trigger on version tags
+      - "v*" # Trigger on version tags
 
 jobs:
   build-and-release:
@@ -12,9 +12,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          submodules: true  # Fetch Hugo themes (true OR recursive)
-          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
-          lfs: true        # Add this to fetch LFS objects
+          submodules: true # Fetch Hugo themes (true OR recursive)
+          fetch-depth: 0 # Fetch all history for .GitInfo and .Lastmod
+          lfs: true # Add this to fetch LFS objects
 
       - name: Checkout LFS objects
         run: git lfs checkout
@@ -22,8 +22,8 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: '0.136.1'
-          extended: true    # If you're using SCSS/SASS
+          hugo-version: "latest"
+          extended: true # If you're using SCSS/SASS
 
       - name: Build
         run: hugo --minify
@@ -38,4 +38,4 @@ jobs:
           files: public.tar.gz
           generate_release_notes: true
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} 
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

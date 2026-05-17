@@ -88,13 +88,13 @@
       "title": "Padres",
       "description": "Giants vs Padres at 01:05PM on Sunday, March 9th, 2025",
       "seatsAvailable": {
-        "s103a6": true,
-        "s103b5": true,
-        "s103b6": true,
-        "s103b7": true
+        "s103a6": false,
+        "s103b5": false,
+        "s103b6": false,
+        "s103b7": false
       },
       "start": "2025-03-09",
-      "backgroundColor": "#28a745"
+      "backgroundColor": "#dc3545"
     },
     {
       "title": "Athletics",
@@ -178,7 +178,7 @@
         "s103b7": false
       },
       "start": "2025-03-22",
-      "backgroundColor": "#28a745"
+      "backgroundColor": "#dc3545"
     }
   ]
 }
